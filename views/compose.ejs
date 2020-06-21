@@ -1,0 +1,11 @@
+<%- include("partials/header")-%>
+<h1>Compose</h1>
+<form class="" action="/compose" method="post">
+  <label class = "compositionForm">Title</label>
+<input class = "compositionForm" type="text" name="tite" autofocus>
+<label class = "compositionForm">post</label>
+<textarea class = "compositionForm" rows="10" name="comp"></textarea><br>
+<input class = "compositionForm" name = "file" type="file"><br>
+<button class = "btn btn-primary btn-lg" type="submit" name="button">Submit</button>
+</form>
+<%- include("partials/footer")-%>
